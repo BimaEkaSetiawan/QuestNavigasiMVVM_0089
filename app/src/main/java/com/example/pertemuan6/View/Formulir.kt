@@ -49,5 +49,15 @@ fun FormIsian(
                 .padding(20.dp),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
-        )
+        ) {
+            OutlinedTextField(
+                value = "",
+                singleLine = true,
+                modifier = Modifier
+                    .padding(vertical = 10.dp)
+                    .width(250.dp),
+                label = { Text(text = "Nama Lengkap") },
+                onValueChange = {},
+            )
+
 }
