@@ -66,5 +66,9 @@ fun FormIsian(
                 thickness = 1.dp,
                 color = Color.Red
             )
-
+            Row(
+                modifier = Modifier.width(250.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly,
+                verticalAlignment = Alignment.CenterVertically
+            )
 }
